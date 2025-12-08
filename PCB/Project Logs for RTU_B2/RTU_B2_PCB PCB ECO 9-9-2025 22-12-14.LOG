@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=A_IN Pin=J6-1
+Removed Pin From Net: NetName=B_IN Pin=J6-2
+Removed Member From Class: ClassName=RTU_B2_Block_Diagram Member=J6
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Added Component: Designator=J?(JST_B3B-XH-A)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B3B-XH-A/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B3B-XH-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B3B-XH-A/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=A_IN Pin=J?-1
+Added Pin To Net: NetName=B_IN Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-3
+Added Member To Class: ClassName=RTU_B2_Block_Diagram Member=Component J? B3B-XH-A

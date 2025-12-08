@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=FBk Pin=C60-1
+Added Pin To Net: NetName=FBk Pin=R22-1
+Added Pin To Net: NetName=FBk Pin=R30-2
+Added Pin To Net: NetName=FBk Pin=U7-4
+Added Net: Name=FBk

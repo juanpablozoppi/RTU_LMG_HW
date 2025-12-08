@@ -1,0 +1,19 @@
+Added Component: Designator=IC?(SON40P220X200X80-11N)
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/bq25186.pdf?ts=1740508135755&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ25186"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BQ25186DLHR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-BQ25186DLHR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25186DLHR?qs=efUn273yAheZpfz2mNbAWQ%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SYS Pin=IC?-1
+Added Pin To Net: NetName=VBat Pin=IC?-2
+Added Pin To Net: NetName=\P\G\ Pin=IC?-3
+Added Pin To Net: NetName=\C\E\ Pin=IC?-4
+Added Pin To Net: NetName=GND Pin=IC?-5
+Added Pin To Net: NetName=TS Pin=IC?-6
+Added Pin To Net: NetName=SDA Pin=IC?-7
+Added Pin To Net: NetName=SCL Pin=IC?-8
+Added Pin To Net: NetName=\I\N\T\ Pin=IC?-9
+Added Pin To Net: NetName=VIN_BTY_CH Pin=IC?-10
+Added Pin To Net: NetName=GND Pin=IC?-11
+Added Member To Class: ClassName=U_RTU_B2_Battery_Charger Member=Component IC? BQ25186DLHR

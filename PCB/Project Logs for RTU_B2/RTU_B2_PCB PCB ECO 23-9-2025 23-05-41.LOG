@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=BTY_CH_INT Pin=U2-26
+Change Component Description : Designator=BT1 Old Description=Coin Cell Retainer; Holder; SMT;20mm Cell; Nickel Plate; Tape & Reel New Description=Coin Cell Retainer; Holder; SMT;20mm Cell; Nickel Plate; Tape & Reel | Keystone Electronics 3034TR
+Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG
+Added Pin To Net: NetName=BTY_CH_INT Pin=U2-6
+Added Pin To Net: NetName=\I\N\T\ Pin=U2-26
+Change Net Name : Old Net Name=BTY_CH_INT New Net Name=MBAT

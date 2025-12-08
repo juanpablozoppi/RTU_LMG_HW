@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=5V Pin=C49-1
+Removed Pin From Net: NetName=GND Pin=C49-2
+Removed Pin From Net: NetName=5V Pin=D7-2
+Removed Pin From Net: NetName=GND Pin=IC10-2
+Removed Pin From Net: NetName=5V Pin=K1-2
+Removed Pin From Net: NetName=5V Pin=R33-2
+Removed Pin From Net: NetName=RELAY Pin=R35-1
+Removed Pin From Net: NetName=GND Pin=U6-2
+Removed Pin From Net: NetName=GND Pin=U6-3
+Removed Member From Class: ClassName=J10_Nets Member=COM_RELAY
+Removed Member From Class: ClassName=J10_Nets Member=NC
+Removed Member From Class: ClassName=J10_Nets Member=NO
+Added Pin To Net: NetName=RELAY_COM Pin=J10-2
+Added Net: Name=RELAY_COM
+Added Pin To Net: NetName=RELAY_NC Pin=J10-1
+Added Net: Name=RELAY_NC
+Added Pin To Net: NetName=RELAY_NO Pin=J10-3
+Added Net: Name=RELAY_NO
+Added Member To Class: ClassName=J10_Nets Member=Wire RELAY_COM
+Added Member To Class: ClassName=J10_Nets Member=Wire RELAY_NC
+Added Member To Class: ClassName=J10_Nets Member=Wire RELAY_NO

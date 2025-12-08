@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=A_IN Pin=J3-1
+Removed Pin From Net: NetName=B_IN Pin=J3-3
+Removed Pin From Net: NetName=GND Pin=J3-7
+Removed Pin From Net: NetName=GND Pin=J4-1
+Removed Pin From Net: NetName=VBat Pin=J4-3
+Removed Pin From Net: NetName=GND Pin=J5-1
+Removed Pin From Net: NetName=VIN_BTY_CH Pin=J5-2
+Removed Pin From Net: NetName=VOUT_BTY_CH Pin=J6-1
+Removed Member From Class: ClassName=RTU_B2_Block_Diagram Member=J3
+Removed Member From Class: ClassName=RTU_B2_Block_Diagram Member=J4
+Removed Member From Class: ClassName=RTU_B2_Block_Diagram Member=J5
+Removed Member From Class: ClassName=Cargador de Baterias Member=J6
+Change Component Description : Designator=J7 Old Description=BergStik<sup>&reg;</sup>, Board to Board connector, Unshrouded vertical header, Through Hole, Single Row, , 3 Positions, 2.54 mm (0.100in) Pitch. New Description=Board to Board connector, Unshrouded vertical header, Through Hole, Single Row, , 3 Positions, 2.54 mm (0.100in) Pitch.
+Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG
+Change component parameters: Designator = "J7" ("J7"); Footprint = "AMPHENOL_68001-203HLF"; UniqueID = "\YKEMZDKR" ("\YKEMZDKR")
+Change component parameters (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/68001-203HLF/Amphenol+FCI/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/es/products/detail/amphenol-cs-fci/68001-203HLF/2023312"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Amphenol ICC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "68001-203HLF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search?q=68001-203HLF&ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/68001-203HLF/Amphenol+FCI/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "BT1" ("BT1"); Footprint = "BAT_BS-3"; UniqueID = "\CSEJCVQM" ("\CSEJCVQM")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Warning"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/en/products/detail/mpd-memory-protection-devices/BS-3/275305"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "New link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/en/products/detail/jauch-quartz/ML2032/26526958?s=N4IgjCBcoMwExVAYygMwIYBsDOBTANCAPZQDaIM8YYADCALqEAOALlCAMosBOAlgHYBzEAF9CAFgBsiECkgYcBYmQowAHAFYA7A2ZtInHgOFjwATjVmZchXkIlI5OvVNwaWq9Flosd5Y4oAAgA1XRBWdgBVfl4WAHlUAFlcdGwAV25cUUIAWgQvOR40pQdyDQYRSqA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "MPD (Memory"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "BS-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BS-3/Memory%20Protection%20Devices/view-part/2280959/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VOUT_BTY_CH Pin=C49-1
+Added Pin To Net: NetName=VOUT_BTY_CH Pin=IC1-1
+Added Pin To Net: NetName=VOUT_BTY_CH Pin=TP_VBTY_CH1-1
+Change Class Name : Old Net Name=RTU_B2_Block_Diagram New Net Name=RTU_LMG_Block_Diagram
+Change Class Name : Old Net Name=RTU_B2_RTC_Linear_Voltage_Regulator_3V3 New Net Name=RTU_LMG_RTC_Linear_Voltage_Regulator_3V3

@@ -1,0 +1,64 @@
+Removed Pin From Net: NetName=6V_BUCK Pin=C33-1
+Removed Pin From Net: NetName=6V_BUCK Pin=C35-1
+Removed Pin From Net: NetName=GND Pin=C35-2
+Removed Pin From Net: NetName=6V_BUCK Pin=C36-1
+Removed Pin From Net: NetName=GND Pin=C36-2
+Removed Pin From Net: NetName=6V_BUCK Pin=C37-1
+Removed Pin From Net: NetName=GND Pin=C37-2
+Removed Pin From Net: NetName=GND Pin=C38-1
+Removed Pin From Net: NetName=6V_BUCK Pin=C38-2
+Removed Pin From Net: NetName=GND Pin=C41-2
+Removed Pin From Net: NetName=Vin_buck Pin=C42-1
+Removed Pin From Net: NetName=GND Pin=C42-2
+Removed Pin From Net: NetName=GND Pin=C43-1
+Removed Pin From Net: NetName=Vin_buck Pin=C43-2
+Removed Pin From Net: NetName=6V_BUCK Pin=C44-1
+Removed Pin From Net: NetName=GND Pin=C44-2
+Removed Pin From Net: NetName=6V_BUCK Pin=IC5-9
+Removed Pin From Net: NetName=GND Pin=IC5-13
+Removed Pin From Net: NetName=GND Pin=IC5-14
+Removed Pin From Net: NetName=GND Pin=IC5-15
+Removed Pin From Net: NetName=GND Pin=IC5-17
+Removed Pin From Net: NetName=GND Pin=IC5-19
+Removed Pin From Net: NetName=Vin_buck Pin=IC5-20
+Removed Pin From Net: NetName=Vin_buck Pin=IC5-21
+Removed Pin From Net: NetName=Vin_buck Pin=IC5-22
+Removed Pin From Net: NetName=GND Pin=IC5-24
+Removed Pin From Net: NetName=GND Pin=IC5-25
+Removed Pin From Net: NetName=GND Pin=IC5-26
+Removed Pin From Net: NetName=GND Pin=IC5-27
+Removed Pin From Net: NetName=GND Pin=IC5-28
+Removed Pin From Net: NetName=GND Pin=IC5-29
+Removed Pin From Net: NetName=GND Pin=IC5-30
+Removed Pin From Net: NetName=GND Pin=IC5-31
+Removed Pin From Net: NetName=6V_BUCK Pin=L3-2
+Removed Pin From Net: NetName=6V_BUCK Pin=R22-2
+Removed Pin From Net: NetName=GND Pin=R24-1
+Removed Pin From Net: NetName=6V_BUCK Pin=R25-2
+Removed Pin From Net: NetName=Vin_buck Pin=R26-1
+Removed Pin From Net: NetName=GND Pin=R27-1
+Removed Pin From Net: NetName=6V_BUCK Pin=TP_6V-1
+Removed Pin From Net: NetName=GND Pin=TP_GND2-1
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C33
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C34
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C35
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C36
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C37
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C38
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C41
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C42
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C43
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=C44
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=IC5
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=L3
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=R22
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=R23
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=R24
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=R25
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=R26
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=R27
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=TP_6V
+Removed Member From Class: ClassName=Fuente switching tipo Buck (6V) Member=TP_GND2
+Change Component Comment : Designator=C45 Old Comment=GRM155R71H471KA01D New Comment=470pF
+Added Member To Class: ClassName=Regulador lineal 3V8 Member=Component IC3 AZ2185D-ADJTRG1
+Added Member To Class: ClassName=Modem Member=Component U4 BG95M3LA-64-SGNS

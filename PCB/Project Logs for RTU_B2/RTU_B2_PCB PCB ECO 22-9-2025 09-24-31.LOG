@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=U_RTU_B2_Battery_Charger Member=C52
+Change Component Description : Designator=BT1 Old Description=Coin Cell Retainer; Holder; SMT;20mm Cell; Nickel Plate; Tape & Reel New Description=Coin Cell Retainer; Holder; SMT;20mm Cell; Nickel Plate; Tape & Reel | Keystone Electronics 3034TR
+Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG
+Added Pin To Net: NetName=GND Pin=C51-1
+Added Pin To Net: NetName=VBat Pin=C51-2

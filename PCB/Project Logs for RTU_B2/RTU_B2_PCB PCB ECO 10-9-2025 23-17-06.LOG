@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=BIAS Pin=C44-1
+Removed Pin From Net: NetName=BIAS Pin=IC5-9
+Change Net Name : Old Net Name=BIAS New Net Name=FSDFSF
+Added Pin To Net: NetName=BIAS Pin=C44-1
+Added Pin To Net: NetName=BIAS Pin=IC5-9
+Added Net: Name=BIAS
