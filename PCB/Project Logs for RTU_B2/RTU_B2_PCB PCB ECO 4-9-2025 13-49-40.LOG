@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=J8-1
-Removed Pin From Net: NetName=INPUT_1 Pin=J8-2
-Removed Pin From Net: NetName=INPUT_2 Pin=J8-3
-Removed Member From Class: ClassName=RTU_B2_Block_Diagram Member=J8

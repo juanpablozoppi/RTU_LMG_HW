@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=3V3 Pin=C1-1
+Removed Pin From Net: NetName=3V3 Pin=C2-1
+Removed Pin From Net: NetName=3V3 Pin=C7-2
+Removed Pin From Net: NetName=3V3 Pin=C36-2
+Removed Pin From Net: NetName=3V3 Pin=IC8-1
+Removed Pin From Net: NetName=3V3 Pin=IC8-8
+Removed Pin From Net: NetName=3V3 Pin=IC8-10
+Removed Pin From Net: NetName=3V3 Pin=R15-2
+Removed Pin From Net: NetName=3V3 Pin=R23-2
+Removed Pin From Net: NetName=3V3 Pin=TP_3V3-1
+Removed Pin From Net: NetName=3V3 Pin=U1-2
+Removed Pin From Net: NetName=3V3 Pin=U5-5
+Change Component Designator: OldDesignator=J? NewDesignator=J5
+Change Component Description : Designator=L2 Old Description=Inductor,Shielded Power,AEC-Q200,47uH 20% SMT 1265 New Description=Inductor,Shielded Power,AEC-Q200,47uH 20% SMT 1265 | Bourns SRP1265A-470M
+Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG
+Added Pin To Net: NetName=3V3_ESP32 Pin=C1-1
+Added Pin To Net: NetName=3V3_ESP32 Pin=C2-1
+Added Pin To Net: NetName=3V3_ESP32 Pin=IC8-1
+Added Pin To Net: NetName=3V3_ESP32 Pin=IC8-8
+Added Pin To Net: NetName=3V3_ESP32 Pin=IC8-10

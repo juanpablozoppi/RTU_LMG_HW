@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=NetBT_POS Pin=IC7-3
-Added Pin To Net: NetName=NetIC7_3 Pin=IC7-3
-Added Net: Name=NetIC7_3

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=TWAI_RD Pin=U2-9
+Removed Pin From Net: NetName=SDA Pin=U2-37
+Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG
+Added Pin To Net: NetName=SDA Pin=U2-9
+Added Pin To Net: NetName=TWAI_RD Pin=U2-37

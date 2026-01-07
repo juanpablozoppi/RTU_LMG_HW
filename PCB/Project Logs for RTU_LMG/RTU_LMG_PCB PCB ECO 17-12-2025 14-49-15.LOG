@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=L2 Old Footprint=WE-PD_1210 New Footprint=IND_SRP1265A-470M
+Change Component Comment : Designator=L2 Old Comment=33uH, 4.2A New Comment=SRP1265A-470M
+Change component parameters: Designator = "L2" ("L2"); Footprint = "WE-PD_1210"; UniqueID = "\KZRJYXRR\RYZQDDDF" ("\KZRJYXRR\RYZQDDDF")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SRP1265A-470M/Bourns/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "SRP1265A-470M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "Nonstandard Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SRP1265A-470M/Bourns/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Fuente Buck 9/30V - 6V Member=Component L2 SRP1265A-470M

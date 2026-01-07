@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=MBAT Pin=U2-6
-Removed Pin From Net: NetName=VOUTOK Pin=U2-7
-Added Pin To Net: NetName=VOUTOK Pin=U2-6
-Added Pin To Net: NetName=MBAT Pin=U2-7

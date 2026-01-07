@@ -177,23 +177,6 @@ GenerateClassCluster=0
 DocumentUniqueId=YEVGOVMM
 
 [Document9]
-DocumentPath=RTU_LMG_PCB.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LBCDFIQB
-
-[Document10]
 DocumentPath=RTU_LMG_RTC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,24 +193,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YTTNAJLN
 
-[Document11]
-DocumentPath=RTU_LMG_RTC_Linear_Voltage_Regulator_3V3.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=22
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IAXUOPLA
-
-[Document12]
+[Document10]
 DocumentPath=..\..\DIN_DC_Base_Board_components\Project Outputs for DIN_DC_Base_Board_components\DIN_DC_Base_Board_components\DIN_DC_Base_Board_components_SCH_footprints.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -244,7 +210,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YPUDXRFV
 
-[Document13]
+[Document11]
 DocumentPath=..\..\DIN_DC_Base_Board_components\Project Outputs for DIN_DC_Base_Board_components\DIN_DC_Base_Board_components\DIN_DC_Base_Board_components_PCB_footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -261,7 +227,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YTOGSQCY
 
-[Document14]
+[Document12]
 DocumentPath=RTU_LMG_Battery_Charger.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -278,7 +244,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CACKYVER
 
-[Document15]
+[Document13]
 DocumentPath=RTU_LMG_LM2596.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -295,7 +261,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KRUYUHUM
 
-[Document16]
+[Document14]
 DocumentPath=RTU_LMG_ORing3V3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -312,7 +278,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XGFLIVRK
 
-[Document17]
+[Document15]
 DocumentPath=RTU_LMG_CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -329,7 +295,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BUTDFZFW
 
-[Document18]
+[Document16]
 DocumentPath=RTU_LMG_LoRa_Module.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -346,7 +312,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PYQOVWLG
 
-[Document19]
+[Document17]
 DocumentPath=RTU_LMG_gps_acond.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,7 +329,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZXDNCWRO
 
-[Document20]
+[Document18]
 DocumentPath=RTU_LMG_DI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -380,7 +346,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QOSCKUMT
 
-[Document21]
+[Document19]
 DocumentPath=RTU_LMG_DO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -397,80 +363,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FKNCYBZM
 
+[Document20]
+DocumentPath=RTU_LMG_PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LBCDFIQB
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for RTU_B2\BOM\Bill of Materials-RTU_B2.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for RTU_B2\Design Rule Check - RTU_B2_PCB.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for RTU_B2\Pick Place\Pick Place for RTU_B2_PCB.csv
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for RTU_B2\NC Drill\RTU_B2_PCB-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for RTU_B2\NC Drill\RTU_B2_PCB-RectHoles-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for RTU_B2\NC Drill\RTU_B2_PCB.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for RTU_B2\NC Drill\RTU_B2_PCB.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for RTU_B2\Gerber\RTU_B2_PCB.RUL
+DocumentPath=Project Outputs for RTU_LMG\Design Rule Check - RTU_LMG_PCB.html
 DItemRevisionGUID=
 
 [Configuration1]
@@ -592,7 +503,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HPA95472 (HP Ink Tank Wireless 410 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -772,6 +683,20 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=D:\nettra\RTU-LMG_HW\PCB\BOM_custom_template.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Value=True|Description=True|Comment=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=317|Designator=120|Quantity=100|Value=100
+Configuration1_Name7=VisibleOrder_Flat
+Configuration1_Item7=Comment=120|Description=317|Designator=120|Quantity=100|Value=100
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=

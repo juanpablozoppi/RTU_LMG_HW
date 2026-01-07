@@ -1,7 +1,0 @@
-Change Component Designator: OldDesignator=D? NewDesignator=D7
-Change Component Designator: OldDesignator=D? NewDesignator=D8
-Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD7_1
-Added Pin To Net: NetName=NetD8_1 Pin=D8-1
-Added Pin To Net: NetName=NetD8_1 Pin=R9-2
-Added Net: Name=NetD8_1
-Added Member To Class: ClassName=Microcontrolador Member=Component D7 WL-TMRC_5MM

@@ -1,0 +1,402 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://D:\Altium Shared\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">5/1/2026</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">21:09:53</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc" class="file"><acronym title="D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc">D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">22</td></tr>
+</table>
+</td>
+</table><a name="IDOEUGXT02XL0RHS5DA4PVP5JV5MIATWRL3YZNMAOJUFZZW5LQBMXD"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDY3NPXPQG2O1KI22WDRZ0YR5OVXK2CUYX3NK3GOETITTMT1WUOAO">Clearance Constraint (Gap=7mil) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPNWDLIFD5CQ0CYNCFCRP0AI1ZFY2WJL1Z0BIDAGBYXXPZ3W4A22">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDB1R4GMSR5LAPI5NBX2FZP1OKHJBVXLTP2G4OJZGLPK5DESWWU0WC">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">18</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRPOPRXSLCP5LO2KMYOJNP2FLWLDJVXMGMKB5Y1KARKUZAFSXRCRI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0MQPPHKMDAUQGCVF25LCWBUMIH1ASUSAYSTCW0C4XMMU1530TXPJ">Width Constraint (Min=5.984mil) (Max=200mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZOSLYETNNTDRMPXE5LN3BJDSID134CUJ3DE5TRGSKWD3SO4HUJOF">Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=7.008mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID35STRQ20CYIHW3Z14EQDYK2BDJPN1U1Z3Z1LBFFG2CQ4BZXAPIH">Hole Size Constraint (Min=1mil) (Max=196.85mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLJZFDSPLO4I1DVV1NM1WRXQOFHPCO5TCVD1FN3M2QQ2R30VZMH3N">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVDEDRRQFVOGYODL2P1XIN0DYIHJIXKOUPAZMWTBCEAZL3TJJELNO">Hole To Hole Clearance (Gap=196.85mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID345OOYQQ1LDTEWWKIS2NNCADJGSPCEPFXDMDIMJ0JFOF1KZP4W0G">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDY1IGNMMBQXZQPRIQFN4MMAYGQOBF3ZQ2XDNGFXPSZUQ5FH2W1BPK">Silk To Solder Mask (Clearance=0mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4XUQAL2QA5TSOOQSOUSUPS3RFDU1KHHRHZIK05MSOOKGVGSG3RHJ">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLBG1JKO41IN3GPJHFJRX4FMKGN1DJR1IQY3Y0DPLQ42IDHF0MSPH">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDSQEEAF5U4A0MSWQPAUFT2UICGDELQISL54SM3DDQLRHOYFYPWLP">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">22</td>
+</tr>
+</table><br><a name="IDY3NPXPQG2O1KI22WDRZ0YR5OVXK2CUYX3NK3GOETITTMT1WUOAO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=7mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3543.15mil|Location2.X=3551.4mil|Location1.Y=1399.61mil|Location2.Y=1407.86mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3543.15mil|Location2.X=3551.4mil|Location1.Y=1399.61mil|Location2.Y=1407.86mil|Absolute=True">Clearance Constraint: (2mil &lt; 7mil) Between Pad CR1-1(2153.262mil,405.343mil) on Top Layer And Region (0 hole(s)) Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3543.15mil|Location2.X=3551.4mil|Location1.Y=1297.61mil|Location2.Y=1305.86mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3543.15mil|Location2.X=3551.4mil|Location1.Y=1297.61mil|Location2.Y=1305.86mil|Absolute=True">Clearance Constraint: (2mil &lt; 7mil) Between Pad CR1-2(2153.262mil,263.343mil) on Top Layer And Region (0 hole(s)) Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3487.378mil|Location2.X=3495.628mil|Location1.Y=1783.225mil|Location2.Y=1791.475mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3487.378mil|Location2.X=3495.628mil|Location1.Y=1783.225mil|Location2.Y=1791.475mil|Absolute=True">Clearance Constraint: (2mil &lt; 7mil) Between Pad CR2-1(2146.49mil,748.958mil) on Top Layer And Region (0 hole(s)) Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3487.378mil|Location2.X=3495.628mil|Location1.Y=1885.225mil|Location2.Y=1893.475mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3487.378mil|Location2.X=3495.628mil|Location1.Y=1885.225mil|Location2.Y=1893.475mil|Absolute=True">Clearance Constraint: (2mil &lt; 7mil) Between Pad CR2-2(2146.49mil,890.958mil) on Top Layer And Region (0 hole(s)) Keep-Out Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDB1R4GMSR5LAPI5NBX2FZP1OKHJBVXLTP2G4OJZGLPK5DESWWU0WC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4037.289mil|Location2.X=4116.155mil|Location1.Y=4109.941mil|Location2.Y=4161.248mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4037.289mil|Location2.X=4116.155mil|Location1.Y=4109.941mil|Location2.Y=4161.248mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-12(2685.555mil,3117.203mil) on Top Layer And Pad U4-11(2728.862mil,3117.203mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4080.596mil|Location2.X=4364.186mil|Location1.Y=3985.926mil|Location2.Y=4161.248mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4080.596mil|Location2.X=4364.186mil|Location1.Y=3985.926mil|Location2.Y=4161.248mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-11(2728.862mil,3117.203mil) on Top Layer And Pad U4-63(2970.988mil,2991.219mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3993.982mil|Location2.X=4072.848mil|Location1.Y=4109.941mil|Location2.Y=4161.248mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3993.982mil|Location2.X=4072.848mil|Location1.Y=4109.941mil|Location2.Y=4161.248mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-13(2642.248mil,3117.203mil) on Top Layer And Pad U4-12(2685.555mil,3117.203mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3950.675mil|Location2.X=4029.541mil|Location1.Y=4109.941mil|Location2.Y=4161.248mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3950.675mil|Location2.X=4029.541mil|Location1.Y=4109.941mil|Location2.Y=4161.248mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-14(2598.941mil,3117.203mil) on Top Layer And Pad U4-13(2642.248mil,3117.203mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3864.061mil|Location2.X=3986.234mil|Location1.Y=4109.941mil|Location2.Y=4161.248mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3864.061mil|Location2.X=3986.234mil|Location1.Y=4109.941mil|Location2.Y=4161.248mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-16(2512.327mil,3117.203mil) on Top Layer And Pad U4-14(2598.941mil,3117.203mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4580.596mil|Location2.X=4631.903mil|Location1.Y=3519.39mil|Location2.Y=3771.485mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4580.596mil|Location2.X=4631.903mil|Location1.Y=3519.39mil|Location2.Y=3771.485mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-51(3236.736mil,2518.778mil) on Top Layer And Pad U4-56(3236.736mil,2735.313mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4316.816mil|Location2.X=4631.903mil|Location1.Y=3517.422mil|Location2.Y=3564.792mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4316.816mil|Location2.X=4631.903mil|Location1.Y=3517.422mil|Location2.Y=3564.792mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-78(2970.988mil,2522.715mil) on Top Layer And Pad U4-51(3236.736mil,2518.778mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4580.596mil|Location2.X=4631.903mil|Location1.Y=3735.926mil|Location2.Y=3869.91mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4580.596mil|Location2.X=4631.903mil|Location1.Y=3735.926mil|Location2.Y=3869.91mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-56(3236.736mil,2735.313mil) on Top Layer And Pad U4-57(3236.736mil,2833.739mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4316.816mil|Location2.X=4431.116mil|Location1.Y=3651.28mil|Location2.Y=4033.296mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4316.816mil|Location2.X=4431.116mil|Location1.Y=3651.28mil|Location2.Y=4033.296mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-63(2970.988mil,2991.219mil) on Top Layer And Pad U4-99(3037.918mil,2656.573mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4182.958mil|Location2.X=4297.257mil|Location1.Y=3517.422mil|Location2.Y=3564.792mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4182.958mil|Location2.X=4297.257mil|Location1.Y=3517.422mil|Location2.Y=3564.792mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-76(2837.13mil,2522.715mil) on Top Layer And Pad U4-77(2904.059mil,2522.715mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4249.887mil|Location2.X=4364.186mil|Location1.Y=3517.422mil|Location2.Y=3564.792mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4249.887mil|Location2.X=4364.186mil|Location1.Y=3517.422mil|Location2.Y=3564.792mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-77(2904.059mil,2522.715mil) on Top Layer And Pad U4-78(2970.988mil,2522.715mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4249.887mil|Location2.X=4297.257mil|Location1.Y=3517.422mil|Location2.Y=3631.721mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4249.887mil|Location2.X=4297.257mil|Location1.Y=3517.422mil|Location2.Y=3631.721mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-77(2904.059mil,2522.715mil) on Top Layer And Pad U4-97(2904.059mil,2589.644mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3915.242mil|Location2.X=4029.541mil|Location1.Y=3584.351mil|Location2.Y=3698.65mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3915.242mil|Location2.X=4029.541mil|Location1.Y=3584.351mil|Location2.Y=3698.65mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-92(2569.414mil,2656.573mil) on Top Layer And Pad U4-93(2636.343mil,2589.644mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3982.171mil|Location2.X=4096.47mil|Location1.Y=3584.351mil|Location2.Y=3631.721mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3982.171mil|Location2.X=4096.47mil|Location1.Y=3584.351mil|Location2.Y=3631.721mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-93(2636.343mil,2589.644mil) on Top Layer And Pad U4-94(2703.272mil,2589.644mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4049.1mil|Location2.X=4163.399mil|Location1.Y=3584.351mil|Location2.Y=3631.721mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4049.1mil|Location2.X=4163.399mil|Location1.Y=3584.351mil|Location2.Y=3631.721mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-94(2703.272mil,2589.644mil) on Top Layer And Pad U4-95(2770.201mil,2589.644mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4116.029mil|Location2.X=4297.257mil|Location1.Y=3584.351mil|Location2.Y=3631.721mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4116.029mil|Location2.X=4297.257mil|Location1.Y=3584.351mil|Location2.Y=3631.721mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-95(2770.201mil,2589.644mil) on Top Layer And Pad U4-97(2904.059mil,2589.644mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4249.887mil|Location2.X=4364.186mil|Location1.Y=3584.351mil|Location2.Y=3631.721mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4249.887mil|Location2.X=4364.186mil|Location1.Y=3584.351mil|Location2.Y=3631.721mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-97(2904.059mil,2589.644mil) on Top Layer And Pad U4-98(2970.988mil,2589.644mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4316.816mil|Location2.X=4431.116mil|Location1.Y=3584.351mil|Location2.Y=3698.65mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4316.816mil|Location2.X=4431.116mil|Location1.Y=3584.351mil|Location2.Y=3698.65mil|Absolute=True">Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-98(2970.988mil,2589.644mil) on Top Layer And Pad U4-99(3037.918mil,2656.573mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

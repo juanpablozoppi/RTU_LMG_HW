@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=J11-2
+Removed Pin From Net: NetName=GND Pin=J11-3
+Removed Member From Class: ClassName=GPS Member=J11
+Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG

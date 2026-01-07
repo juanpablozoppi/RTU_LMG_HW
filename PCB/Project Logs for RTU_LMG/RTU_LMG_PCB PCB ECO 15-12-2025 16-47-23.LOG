@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=MODEM_RX Pin=U2-11
+Removed Pin From Net: NetName=MODEM_TX Pin=U2-12
+Removed Pin From Net: NetName=LORA_RX_1 Pin=U2-31
+Removed Pin From Net: NetName=LORA_TX_1 Pin=U2-33
+Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG
+Added Pin To Net: NetName=LORA_RX_1 Pin=U2-11
+Added Pin To Net: NetName=LORA_TX_1 Pin=U2-12
+Added Pin To Net: NetName=MODEM_RX Pin=U2-31
+Added Pin To Net: NetName=MODEM_TX Pin=U2-33

@@ -1,0 +1,10 @@
+Added Component: Designator=L2(IND_SRP1265A-470M)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SRP1265A-470M/Bourns/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SRP1265A-470M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Nonstandard Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SRP1265A-470M/Bourns/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD4_1 Pin=L2-1
+Added Pin To Net: NetName=NetB2_5 Pin=L2-2
+Added Member To Class: ClassName=Fuente Buck 9/30V - 6V Member=Component L2 SRP1265A-470M

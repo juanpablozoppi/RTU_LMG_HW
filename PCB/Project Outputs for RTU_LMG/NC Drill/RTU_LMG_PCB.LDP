@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=rtu_lmg_pcb-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Plated_Rect_Holes|DrillFile=rtu_lmg_pcb-rectholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=rtu_lmg_pcb-nonplated.txt|DrillLayers=gtl,gbl

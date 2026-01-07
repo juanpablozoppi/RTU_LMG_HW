@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=3V3_ESP32 Pin=C1-1
+Removed Pin From Net: NetName=3V3_ESP32 Pin=C2-1
+Added Pin To Net: NetName=RTC_3V3 Pin=C1-1
+Added Pin To Net: NetName=RTC_3V3 Pin=C2-1
+Added Net: Name=RTC_3V3

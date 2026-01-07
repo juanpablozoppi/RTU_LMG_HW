@@ -1,8 +1,0 @@
-Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG
-Added Pin To Net: NetName=OUTBOOST Pin=C4-1
-Added Pin To Net: NetName=OUTBOOST Pin=C6-1
-Added Pin To Net: NetName=OUTBOOST Pin=C8-1
-Added Pin To Net: NetName=OUTBOOST Pin=IC3-3
-Added Pin To Net: NetName=OUTBOOST Pin=IC9-1
-Added Pin To Net: NetName=OUTBOOST Pin=IC9-3
-Added Pin To Net: NetName=OUTBOOST Pin=U1-3
