@@ -92,23 +92,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SWGDXENT
 
 [Document4]
-DocumentPath=RTU_B2_Job.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document5]
 DocumentPath=RTU_LMG_Linear_Voltage_Regulator_3V3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZNUNGPKC
 
-[Document6]
+[Document5]
 DocumentPath=RTU_LMG_Linear_Voltage_Regulator_3V8.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +125,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PKNIBVNT
 
-[Document7]
+[Document6]
 DocumentPath=RTU_LMG_Microcontroller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +142,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FVMZMAFW
 
-[Document8]
+[Document7]
 DocumentPath=RTU_LMG_Modem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -176,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YEVGOVMM
 
-[Document9]
+[Document8]
 DocumentPath=RTU_LMG_RTC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -193,7 +176,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YTTNAJLN
 
-[Document10]
+[Document9]
 DocumentPath=..\..\DIN_DC_Base_Board_components\Project Outputs for DIN_DC_Base_Board_components\DIN_DC_Base_Board_components\DIN_DC_Base_Board_components_SCH_footprints.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,7 +193,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YPUDXRFV
 
-[Document11]
+[Document10]
 DocumentPath=..\..\DIN_DC_Base_Board_components\Project Outputs for DIN_DC_Base_Board_components\DIN_DC_Base_Board_components\DIN_DC_Base_Board_components_PCB_footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -227,7 +210,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YTOGSQCY
 
-[Document12]
+[Document11]
 DocumentPath=RTU_LMG_Battery_Charger.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -244,7 +227,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CACKYVER
 
-[Document13]
+[Document12]
 DocumentPath=RTU_LMG_LM2596.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -261,7 +244,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KRUYUHUM
 
-[Document14]
+[Document13]
 DocumentPath=RTU_LMG_ORing3V3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -278,7 +261,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XGFLIVRK
 
-[Document15]
+[Document14]
 DocumentPath=RTU_LMG_CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -295,7 +278,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BUTDFZFW
 
-[Document16]
+[Document15]
 DocumentPath=RTU_LMG_LoRa_Module.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -312,7 +295,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PYQOVWLG
 
-[Document17]
+[Document16]
 DocumentPath=RTU_LMG_gps_acond.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -329,7 +312,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZXDNCWRO
 
-[Document18]
+[Document17]
 DocumentPath=RTU_LMG_DI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -346,7 +329,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QOSCKUMT
 
-[Document19]
+[Document18]
 DocumentPath=RTU_LMG_DO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,7 +346,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FKNCYBZM
 
-[Document20]
+[Document19]
 DocumentPath=RTU_LMG_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1

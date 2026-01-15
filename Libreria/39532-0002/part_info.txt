@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=39532-0002
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2024-07-30 04:46:31
+Downloaded=2026-01-12 14:17:30
+3D=Y

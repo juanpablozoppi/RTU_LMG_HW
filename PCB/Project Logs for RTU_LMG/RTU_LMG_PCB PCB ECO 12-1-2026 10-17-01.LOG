@@ -1,0 +1,71 @@
+Removed Pin From Net: NetName=NetB1_5 Pin=J1-1
+Removed Pin From Net: NetName=GND Pin=J1-2
+Removed Pin From Net: NetName=GND Pin=J1-3
+Removed Pin From Net: NetName=IN_ON/OFF Pin=J5-1
+Removed Pin From Net: NetName=IN_SPUERTAS Pin=J5-2
+Removed Pin From Net: NetName=VCC_TRACT Pin=J6-1
+Removed Pin From Net: NetName=GND_TRACT Pin=J6-2
+Removed Pin From Net: NetName=VCC_TRACT Pin=J7-1
+Removed Pin From Net: NetName=SIR_A2 Pin=J7-2
+Removed Pin From Net: NetName=ENCENDIDO_B2 Pin=J8-2
+Removed Pin From Net: NetName=CANH Pin=J9-1
+Removed Pin From Net: NetName=CANL Pin=J9-2
+Change Component Footprint: Designator=J1 Old Footprint=CUI_PJ-202A New Footprint=CONN_1759017
+Change Component Footprint: Designator=J5 Old Footprint=OSTTC022162 New Footprint=CONN_1759017
+Change Component Footprint: Designator=J6 Old Footprint=OSTTC022162 New Footprint=CONN_1759017
+Change Component Footprint: Designator=J7 Old Footprint=OSTTC022162 New Footprint=CONN_1759017
+Change Component Footprint: Designator=J8 Old Footprint=OSTTC022162 New Footprint=CONN_1759017
+Change Component Footprint: Designator=J9 Old Footprint=OSTTC022162 New Footprint=CONN_1759017
+Change Component Comment : Designator=J5 Old Comment=OSTTC022162 New Comment=1757242
+Change Component Comment : Designator=J6 Old Comment=OSTTC022162 New Comment=1757242
+Change Component Comment : Designator=J7 Old Comment=OSTTC022162 New Comment=1757242
+Change Component Comment : Designator=J8 Old Comment=OSTTC022162 New Comment=1757242
+Change Component Comment : Designator=J9 Old Comment=OSTTC022162 New Comment=1757242
+Change Component Comment : Designator=J1 Old Comment=PJ-202A New Comment=1757242
+Change component parameters: Designator = "J5" ("J5"); Footprint = "OSTTC022162"; UniqueID = "\ZPRNHLGN" ("\ZPRNHLGN")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2026 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1757242"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J6" ("J6"); Footprint = "OSTTC022162"; UniqueID = "\RAKTBHMX" ("\RAKTBHMX")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2026 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1757242"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J7" ("J7"); Footprint = "OSTTC022162"; UniqueID = "\FMLFTAMB" ("\FMLFTAMB")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2026 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1757242"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J8" ("J8"); Footprint = "OSTTC022162"; UniqueID = "\BRQPQBAM" ("\BRQPQBAM")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2026 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1757242"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J9" ("J9"); Footprint = "OSTTC022162"; UniqueID = "\TZOORRYQ" ("\TZOORRYQ")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2026 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1757242"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J1" ("J1"); Footprint = "CUI_PJ-202A"; UniqueID = "\IRARAITG" ("\IRARAITG")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2026 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1757242"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=NetB1_5 Pin=J1-2
+Added Pin To Net: NetName=VCC_TRACT Pin=J5-1
+Added Pin To Net: NetName=GND_TRACT Pin=J5-2
+Added Pin To Net: NetName=IN_ON/OFF Pin=J6-1
+Added Pin To Net: NetName=IN_SPUERTAS Pin=J6-2
+Added Pin To Net: NetName=CANH Pin=J7-1
+Added Pin To Net: NetName=CANL Pin=J7-2
+Added Pin To Net: NetName=SIR_A2 Pin=J8-2
+Added Pin To Net: NetName=VCC_TRACT Pin=J9-1
+Added Pin To Net: NetName=ENCENDIDO_B2 Pin=J9-2

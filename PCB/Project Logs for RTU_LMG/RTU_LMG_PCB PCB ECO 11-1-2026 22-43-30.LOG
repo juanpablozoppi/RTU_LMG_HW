@@ -1,0 +1,44 @@
+Removed Pin From Net: NetName=VCC_TRACT Pin=J7-3
+Removed Pin From Net: NetName=ENCENDIDO_B2 Pin=J7-4
+Change Component Footprint: Designator=J7 Old Footprint=OSTTC042162 New Footprint=OSTTC022162
+Change Component Comment : Designator=J7 Old Comment=OSTTC042162 New Comment=OSTTC022162
+Change component parameters: Designator = "J7" ("J7"); Footprint = "OSTTC042162"; UniqueID = "\UVDACQGF" ("\UVDACQGF")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "OSTTC022162"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/osttc022162/on-shore-technology?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "10.3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "On Shore Technology Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "OSTTC022162"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=CR1(CR_SOD-123FL_SME)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2025 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SMC Diode Solutions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1N4007FL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=CR2(CR_SOD-123FL_SME)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2025 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SMC Diode Solutions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1N4007FL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J8(OSTTC022162)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "OSTTC022162"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/osttc022162/on-shore-technology?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "10.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "On Shore Technology Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "OSTTC022162"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC_TRACT Pin=CR1-1
+Added Pin To Net: NetName=SIR_A2 Pin=CR1-2
+Added Pin To Net: NetName=VCC_TRACT Pin=CR2-1
+Added Pin To Net: NetName=ENCENDIDO_B2 Pin=CR2-2
+Added Pin To Net: NetName=VCC_TRACT Pin=J8-1
+Added Pin To Net: NetName=ENCENDIDO_B2 Pin=J8-2
+Added Member To Class: ClassName=Salidas Digitales Member=Component CR1 1N4007FL
+Added Member To Class: ClassName=Salidas Digitales Member=Component CR2 1N4007FL
+Added Member To Class: ClassName=RTU_LMG_Block_Diagram Member=Component J8 OSTTC022162
+Added Member To Class: ClassName=U_RTU_LMG_LoRa_Module Member=Component S2 219-2MSTR

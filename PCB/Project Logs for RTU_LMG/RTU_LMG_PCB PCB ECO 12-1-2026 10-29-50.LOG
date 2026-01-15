@@ -1,0 +1,54 @@
+Change Component Footprint: Designator=J1 Old Footprint=CONN_1759017 New Footprint=395320002
+Change Component Footprint: Designator=J5 Old Footprint=CONN_1759017 New Footprint=395320002
+Change Component Footprint: Designator=J6 Old Footprint=CONN_1759017 New Footprint=395320002
+Change Component Footprint: Designator=J7 Old Footprint=CONN_1759017 New Footprint=395320002
+Change Component Footprint: Designator=J8 Old Footprint=CONN_1759017 New Footprint=395320002
+Change Component Footprint: Designator=J9 Old Footprint=CONN_1759017 New Footprint=395320002
+Change Component Comment : Designator=J1 Old Comment=1757242 New Comment=39532-0002
+Change Component Comment : Designator=J5 Old Comment=1757242 New Comment=39532-0002
+Change Component Comment : Designator=J6 Old Comment=1757242 New Comment=39532-0002
+Change Component Comment : Designator=J7 Old Comment=1757242 New Comment=39532-0002
+Change Component Comment : Designator=J8 Old Comment=1757242 New Comment=39532-0002
+Change Component Comment : Designator=J9 Old Comment=1757242 New Comment=39532-0002
+Change component parameters: Designator = "J1" ("J1"); Footprint = "CONN_1759017"; UniqueID = "\CYJWOOJD" ("\CYJWOOJD")
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/395/39532/395320002_sd.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Geometry.Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "538-39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/39532-0002?qs=4dAX1jW9NQomEA670G66iA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J5" ("J5"); Footprint = "CONN_1759017"; UniqueID = "\PKRRAOQC" ("\PKRRAOQC")
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/395/39532/395320002_sd.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Geometry.Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "538-39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/39532-0002?qs=4dAX1jW9NQomEA670G66iA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J6" ("J6"); Footprint = "CONN_1759017"; UniqueID = "\TAOUJBUI" ("\TAOUJBUI")
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/395/39532/395320002_sd.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Geometry.Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "538-39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/39532-0002?qs=4dAX1jW9NQomEA670G66iA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J7" ("J7"); Footprint = "CONN_1759017"; UniqueID = "\LIASDZQW" ("\LIASDZQW")
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/395/39532/395320002_sd.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Geometry.Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "538-39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/39532-0002?qs=4dAX1jW9NQomEA670G66iA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J8" ("J8"); Footprint = "CONN_1759017"; UniqueID = "\LZRQICJM" ("\LZRQICJM")
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/395/39532/395320002_sd.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Geometry.Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "538-39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/39532-0002?qs=4dAX1jW9NQomEA670G66iA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J9" ("J9"); Footprint = "CONN_1759017"; UniqueID = "\NRHGVUPV" ("\NRHGVUPV")
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/395/39532/395320002_sd.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Geometry.Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "538-39532-0002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/39532-0002?qs=4dAX1jW9NQomEA670G66iA%3D%3D"; VariantName = "[No Variations]"

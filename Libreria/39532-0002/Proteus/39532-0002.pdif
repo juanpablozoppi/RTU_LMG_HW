@@ -1,0 +1,114 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "39532-0002"
+   (description "Pluggable Terminal Blocks 5.08MM EURO HEADER R EADER RA OE BLK 2CKT")
+   (family "CON")
+   (package "395320002")
+   (attribute "Datasheet Link" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/395/39532/395320002_sd.pdf")
+   (attribute "Geometry.Height" "8.7mm")
+   (attribute "Mouser Part Number" "538-39532-0002")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39532-0002?qs=4dAX1jW9NQomEA670G66iA%3D%3D")
+   (attribute "Manufacturer_Name" "Molex")
+   (attribute "Manufacturer_Part_Number" "39532-0002")
+   (gate
+    (symbol "39532-0002")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "39532-0002"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "395320002"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.54 2)
+      (pt 7.62 2)
+      (pt 7.62 -10)
+      (pt -2.54 -10)
+      (pt -2.54 2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.54 2)
+      (pt 7.62 2)
+      (pt 7.62 -10)
+      (pt -2.54 -10)
+      (pt -2.54 2))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.54 3)
+      (pt 8.62 3)
+      (pt 8.62 -11)
+      (pt -3.54 -11)
+      (pt -3.54 3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 2.6)
+      (arc (pt 0.000 2.600) (pt -0.050 2.500) (pt 0.050 2.600) (start 180.0) (sweep 90.0))
+      (pt 0 2.5)
+      (arc (pt 0.000 2.500) (pt -0.050 2.500) (pt 0.050 2.600) (start 180.0) (sweep -90.0))
+      (pt 0 2.6))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.080 0.000) (padstack 2))
+   (padstack 0
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (square 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (square 2.400))
+   )
+   (padstack 2
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (model "39532-0002.stp"
+    (euler 90 0 0)
+    (offset 2.5399999618530273 1.9700000286102295 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '39532_0002'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "39532-0002" (!) = "", "395320002", "Other", "538-39532-0002", "https://www.mouser.co.uk/ProductDetail/Molex/39532-0002?qs=4dAX1jW9NQomEA670G66iA%3D%3D", "Pluggable Terminal Blocks 5.08MM EURO HEADER R EADER RA OE BLK 2CKT", "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/395/39532/395320002_sd.pdf", "8.7 mm"
+END_PART
+
+END.

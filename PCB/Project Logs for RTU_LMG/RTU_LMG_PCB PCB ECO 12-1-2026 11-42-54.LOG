@@ -1,0 +1,54 @@
+Change Component Footprint: Designator=J1 Old Footprint=395320002 New Footprint=CUI_TBP01R1-508-02BE
+Change Component Footprint: Designator=J5 Old Footprint=395320002 New Footprint=CUI_TBP01R1-508-02BE
+Change Component Footprint: Designator=J6 Old Footprint=395320002 New Footprint=CUI_TBP01R1-508-02BE
+Change Component Footprint: Designator=J7 Old Footprint=395320002 New Footprint=CUI_TBP01R1-508-02BE
+Change Component Footprint: Designator=J8 Old Footprint=395320002 New Footprint=CUI_TBP01R1-508-02BE
+Change Component Footprint: Designator=J9 Old Footprint=395320002 New Footprint=CUI_TBP01R1-508-02BE
+Change Component Comment : Designator=J1 Old Comment=39532-0002 New Comment=TBP01R1-508-02BE
+Change Component Comment : Designator=J5 Old Comment=39532-0002 New Comment=TBP01R1-508-02BE
+Change Component Comment : Designator=J6 Old Comment=39532-0002 New Comment=TBP01R1-508-02BE
+Change Component Comment : Designator=J7 Old Comment=39532-0002 New Comment=TBP01R1-508-02BE
+Change Component Comment : Designator=J8 Old Comment=39532-0002 New Comment=TBP01R1-508-02BE
+Change Component Comment : Designator=J9 Old Comment=39532-0002 New Comment=TBP01R1-508-02BE
+Change component parameters: Designator = "J1" ("J1"); Footprint = "395320002"; UniqueID = "\RSTGULZY" ("\RSTGULZY")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TBP01R1-508-02BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J5" ("J5"); Footprint = "395320002"; UniqueID = "\RIAQERYA" ("\RIAQERYA")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TBP01R1-508-02BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J6" ("J6"); Footprint = "395320002"; UniqueID = "\SRTRTVFG" ("\SRTRTVFG")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TBP01R1-508-02BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J7" ("J7"); Footprint = "395320002"; UniqueID = "\WUBNHGWO" ("\WUBNHGWO")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TBP01R1-508-02BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J8" ("J8"); Footprint = "395320002"; UniqueID = "\XGBMVHUV" ("\XGBMVHUV")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TBP01R1-508-02BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J9" ("J9"); Footprint = "395320002"; UniqueID = "\DWVWLEMZ" ("\DWVWLEMZ")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TBP01R1-508-02BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
