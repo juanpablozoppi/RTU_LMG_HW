@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=SIR_A2 Pin=J8-2
+Removed Pin From Net: NetName=ENCENDIDO_B2 Pin=J9-2
+Removed Member From Class: ClassName=RTU_LMG_Block_Diagram Member=J5
+Removed Member From Class: ClassName=RTU_LMG_Block_Diagram Member=J9
+Change Component Designator: OldDesignator=J? NewDesignator=J10
+Change Component Description : Designator=L2 Old Description=Inductor,Shielded Power,AEC-Q200,47uH 20% SMT 1265 New Description=Inductor,Shielded Power,AEC-Q200,47uH 20% SMT 1265 | Bourns SRP1265A-470M
+Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG
+Added Pin To Net: NetName=VinEXT Pin=CR1-1
+Added Pin To Net: NetName=VinEXT Pin=CR2-1
+Added Pin To Net: NetName=SIR_A2 Pin=J8-1
+Added Pin To Net: NetName=ENCENDIDO_B2 Pin=J8-2
+Added Pin To Net: NetName=GND Pin=K1-2
+Added Pin To Net: NetName=GND Pin=K2-2
+Added Pin To Net: NetName=VinEXT Pin=K3-4
+Added Pin To Net: NetName=VinEXT Pin=K4-4
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=GND Pin=R27-1
+Added Pin To Net: NetName=GND Pin=R29-1
+Added Member To Class: ClassName=RTU_LMG_Block_Diagram Member=Component J8 TBP01R1-508-02BE

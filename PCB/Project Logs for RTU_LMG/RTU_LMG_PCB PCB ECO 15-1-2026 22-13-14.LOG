@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=GND Pin=U2-5
+Added Component: Designator=J5(CUI_TBP01R1-508-02BE)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TBP01R1-508-02BE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TBP01R1-508-02BE/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=AIN0 Pin=J5-2
+Added Pin To Net: NetName=AIN0 Pin=U2-5
+Added Net: Name=AIN0
+Added Member To Class: ClassName=RTU_LMG_Block_Diagram Member=Component J5 TBP01R1-508-02BE
+Added Room: Name=Cargador de Baterias
+Added Room: Name=Entradas digitales
+Added Room: Name=Expansores de IO
+Added Room: Name=Fuente Buck 9/30V - 6V
+Added Room: Name=GPS
+Added Room: Name=Interfaz CAN
+Added Room: Name=Microcontrolador
+Added Room: Name=Regulador lineal 3V3
+Added Room: Name=Regulador lineal 3V8
+Added Room: Name=RTU_LMG_Block_Diagram
+Added Room: Name=Salidas Digitales
+Added Room: Name=U_RTC
+Added Room: Name=U_RTU_B2_ORing3V3
+Added Room: Name=U_RTU_LMG_gps_acond
+Added Room: Name=U_RTU_LMG_LoRa_Module

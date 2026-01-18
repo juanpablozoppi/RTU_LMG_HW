@@ -1,13 +1,13 @@
 Protel Design System Design Rule Check
 PCB File : D:\nettra\RTU-LMG_HW\PCB\RTU_LMG_PCB.PcbDoc
-Date     : 15/1/2026
-Time     : 16:21:05
+Date     : 18/1/2026
+Time     : 17:29:18
 
 Processing Rule : Clearance Constraint (Gap=0.178mm) (All),(All)
-   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR1-1(73.409mm,30.027mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
-   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR1-2(77.015mm,30.027mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
-   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR2-1(67.364mm,1.434mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
-   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR2-2(63.758mm,1.434mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
+   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR1-1(53.033mm,24.506mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
+   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR1-2(56.64mm,24.506mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
+   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR2-1(33.544mm,24.893mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
+   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR2-2(37.151mm,24.893mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
 Rule Violations :4
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -70,4 +70,4 @@ Rule Violations :0
 
 Violations Detected : 22
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:01
