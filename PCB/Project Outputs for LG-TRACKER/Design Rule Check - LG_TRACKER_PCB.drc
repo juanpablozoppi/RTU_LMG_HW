@@ -1,0 +1,73 @@
+Protel Design System Design Rule Check
+PCB File : D:\nettra\RTU-LMG_HW\PCB\LG_TRACKER_PCB.PcbDoc
+Date     : 18/1/2026
+Time     : 18:47:29
+
+Processing Rule : Clearance Constraint (Gap=0.178mm) (All),(All)
+   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR1-1(53.033mm,24.506mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
+   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR1-2(56.64mm,24.506mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
+   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR2-1(33.544mm,24.893mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
+   Violation between Clearance Constraint: (0.051mm < 0.178mm) Between Pad CR2-2(37.151mm,24.893mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer 
+Rule Violations :4
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-12(62.563mm,83.212mm) on Top Layer And Pad U4-11(63.663mm,83.212mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-11(63.663mm,83.212mm) on Top Layer And Pad U4-63(69.813mm,80.012mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-13(61.463mm,83.212mm) on Top Layer And Pad U4-12(62.563mm,83.212mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-14(60.363mm,83.212mm) on Top Layer And Pad U4-13(61.463mm,83.212mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-16(58.163mm,83.212mm) on Top Layer And Pad U4-14(60.363mm,83.212mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-51(76.563mm,68.012mm) on Top Layer And Pad U4-56(76.563mm,73.512mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-78(69.813mm,68.112mm) on Top Layer And Pad U4-51(76.563mm,68.012mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-56(76.563mm,73.512mm) on Top Layer And Pad U4-57(76.563mm,76.012mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-63(69.813mm,80.012mm) on Top Layer And Pad U4-99(71.513mm,71.512mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-76(66.413mm,68.112mm) on Top Layer And Pad U4-77(68.113mm,68.112mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-77(68.113mm,68.112mm) on Top Layer And Pad U4-78(69.813mm,68.112mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-77(68.113mm,68.112mm) on Top Layer And Pad U4-97(68.113mm,69.812mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-92(59.613mm,71.512mm) on Top Layer And Pad U4-93(61.313mm,69.812mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-93(61.313mm,69.812mm) on Top Layer And Pad U4-94(63.013mm,69.812mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-94(63.013mm,69.812mm) on Top Layer And Pad U4-95(64.713mm,69.812mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-95(64.713mm,69.812mm) on Top Layer And Pad U4-97(68.113mm,69.812mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-97(68.113mm,69.812mm) on Top Layer And Pad U4-98(69.813mm,69.812mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetU4_11 Between Pad U4-98(69.813mm,69.812mm) on Top Layer And Pad U4-99(71.513mm,71.512mm) on Top Layer 
+Rule Violations :18
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.152mm) (Max=5.08mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.178mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=5mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 22
+Waived Violations : 0
+Time Elapsed        : 00:00:02

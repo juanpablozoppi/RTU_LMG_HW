@@ -1,0 +1,3 @@
+Change Component Description : Designator=L2 Old Description=Inductor,Shielded Power,AEC-Q200,47uH 20% SMT 1265 New Description=Inductor,Shielded Power,AEC-Q200,47uH 20% SMT 1265 | Bourns SRP1265A-470M
+Change Component Description : Designator=U7 Old Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK New Description=LM2596DSADJG Switching Regulator 3A Adjustable, 1.23 to 37 V, 5-Pin D2PAK | ON Semiconductor LM2596DSADJG
+Change Class Name : Old Net Name=RTU_LMG_Block_Diagram New Net Name=LG_TRACKER_Block_Diagram
